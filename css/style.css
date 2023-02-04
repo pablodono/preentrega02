@@ -146,6 +146,9 @@ nav ul a:hover{
 
 .Contacto3 { grid-area: Contacto3; }
 
+.contenedor {
+    background-color: #121F3D;
+}
 
 .cuerpo {
     grid-area: cuerpo;
