@@ -155,7 +155,7 @@ nav ul a:hover{
 
 .cuerpo {
     grid-area: cuerpo;
-    background-color: blueviolet;
+    background-color: #D7DEDC;
     background-image: url(../assets/tribu8.jpg);
     background-position: center center;
     background-repeat: no-repeat;
