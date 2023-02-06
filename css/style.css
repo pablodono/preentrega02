@@ -391,14 +391,6 @@ h4 {
     }
 
 
-/* 
-    @media (max-width: 830px)  {
-        .menu {
-            display: none;
-            }
-        }
-    } */
-
     
     @media (max-width: 830px)  {
         .menu {
@@ -445,3 +437,5 @@ h4 {
                 color: rgb(0, 0, 0);
                 border-radius: 20px;
             }
+        }
+    }
