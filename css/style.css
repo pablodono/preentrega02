@@ -63,6 +63,8 @@ nav ul a:hover{
 
 
 
+
+
 .contentTel {
     width: 258px;
     height: 70px;
@@ -89,10 +91,26 @@ nav ul a:hover{
 }
 
 
+
 .tel:hover {
     background-color: rgb(98, 37, 197);
     transition: all .5s;
 }
+
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+
 
 .contentMail {
     width: 258px;
@@ -125,6 +143,21 @@ nav ul a:hover{
     background-color: rgb(98, 37, 197);
     transition: all .5s;
 }
+
+
+.lineaAzul .contentMail a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
 
 
 .contenedor { 
@@ -407,7 +440,6 @@ h4 {
                 align-items: start;
                 background: rgba(87,27,237,1) 100%);
             }
-
             .logo{
                 width:  161px;
                 height: 60px;
@@ -415,14 +447,12 @@ h4 {
                 display: flex;
                 justify-items: center;
             }
-
             nav ul{
                 list-style: none;
                 padding: 12px;
                 display: flex;
                 align-items: start;
             }
-            
             nav ul a{
                 font-weight: 500;
                 color: white;
