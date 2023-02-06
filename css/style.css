@@ -193,7 +193,17 @@ nav ul a:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
+.contenedor .mensajeCuerpo{
+    grid-area: cuerpo;
+    position: relative;
+    top: 5rem;
+    bottom: 3rem;
+    margin: auto;
+    }
+
 
 .mensajeCuerpo {
     grid-area: cuerpo;
@@ -201,9 +211,7 @@ nav ul a:hover{
     height: auto;
     padding-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
-    justify-self: center;
-    align-self: center;
+    border-radius: 20px;    
 }
 
 
@@ -379,9 +387,11 @@ h4 {
 
 
 @media (max-width: 1000px)  {
-    .mensajeCuerpo {
-        font-size: 0.8rem;
+
+    .contenedor .mensajeCuerpo {
+        margin-bottom: 10rem;
     }
+
     .cuerpo {
         background-image: url(../assets/tribu8.jpg);
         background-size: cover;
@@ -419,13 +429,30 @@ h4 {
     .Contacto3 {
         margin: 50px;
     }
-    .mensajeCuerpo {
-        margin-top: 50px;
-    }
 
+/*     
+.contenedor .mensajeCuerpo{
+    position: relative;
+    top: 5rem;
+    bottom: 3rem;
+    margin: auto;
+}
+
+
+.mensajeCuerpo {
+    grid-area: cuerpo;
+    width: 70%;
+    height: auto;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;    
+} */
 
     
     @media (max-width: 830px)  {
+        .contenedor .mensajeCuerpo {
+            margin-bottom: 10rem;
+        }
         .menu {
             font-size: 0.8rem;
             }
@@ -468,4 +495,6 @@ h4 {
                 border-radius: 20px;
             }
         }
-    }
+
+
+
