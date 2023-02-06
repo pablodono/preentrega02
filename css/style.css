@@ -203,7 +203,6 @@ nav ul a:hover{
 .Contacto2 {
     width: 350px;
     height: 250px;
-    background-color:#02e675;
     border: solid 2px blue;
     justify-self: center;
     align-self: center;
@@ -241,14 +240,15 @@ nav ul a:hover{
 }
 
 
-.ContenMenuDown li h3 {
+.ContenMenuDown li a {
     font-family:'Poppins', sans-serif;
     font-size: 0.95rem;
     font-weight: 400;
-    text-decoration: none;
-    color: black;
-
+    text-decoration:underline;
+    color: #05B4CD;
 }
+
+
 
 
 
@@ -293,6 +293,11 @@ h2 {
     color: #000;
     }
 
+h4 {
+    font-weight: bold;
+
+}
+
 .ContenMenuDown li h3 {
     color: white;
     }
@@ -321,6 +326,7 @@ h2 {
     .Logo2 {
         margin: 2rem;
     }
+
 
 
 
