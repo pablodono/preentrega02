@@ -201,10 +201,17 @@ nav ul a:hover{
 
 
 .Contacto2 {
-    align-self: center;
+    width: 350px;
+    height: 250px;
+    background-color:#02e675;
+    border: solid 2px blue;
     justify-self: center;
+    align-self: center;
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: 30px;
+
+
 }
 
 .Contacto3 {
@@ -222,20 +229,21 @@ nav ul a:hover{
 
 
 .ContenMenuDown {
-    border: solid 2px blue;
+
     width: 350px;
     height: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;    
+    align-items: start;
+    justify-content: center; 
+    margin-left: 2rem;   
     margin-right: 3rem;
 }
 
 
 .ContenMenuDown li h3 {
     font-family:'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 400;
     text-decoration: none;
     color: black;
@@ -247,7 +255,7 @@ nav ul a:hover{
 
 .footer {
     grid-area: footer;
-    background: black;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
     padding: 1rem;
 }
 
@@ -284,7 +292,7 @@ color: #000;
 h2 {
     color: #000;
     }
-    
+
 .ContenMenuDown li h3 {
     color: white;
     }
@@ -367,8 +375,7 @@ h2 {
     }
     .Contacto2 {
         margin: 50px;
-        position: relative;
-        left: 22px;
+    
     }
     .Contacto3 {
         margin: 50px;
