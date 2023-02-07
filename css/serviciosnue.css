@@ -607,9 +607,9 @@ p {
     width: 100%;
     }
 
-    .Logo2 {
-        margin: 2rem;
-    }
+.Logo2 {
+    margin: 2rem;
+}
 
 
 
@@ -627,29 +627,6 @@ p {
 
 @media (max-width: 1300px)  {
 
-    .contenedorCont {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        background-color: #cd4405;
-    }
-    
-
-@media (max-width: 1300px)  {
-
-    .contenedor {
-        display: grid;
-        flex-direction: column;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
-        gap: 2px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "Servicio1 Servicio4"
-        "Servicio2 Servicio5"
-        "Servicio3 Servicio6";
-    }
 
     .contenedor {
         display: flex;
@@ -659,58 +636,14 @@ p {
         flex-direction: column;
         align-content: space-around;
         margin: auto;
-        flex-direction: column;
         justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr 2fr 1fr;
-        gap: 2px 2px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "Servicio1 Servicio4"
-        "Servicio2 Servicio5"
-        "Servicio3 Servicio6";
-
     }
-}
-
-@media (max-width: 1300px)  {
-
-    .contenedor .mensajeCuerpo {
-        margin-bottom: 10rem;
-        font-size: 0.8rem;
-    }
-
-    .cuerpo {
-        background-image: url(../assets/tribu10.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .contenedor {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr 2fr 1fr;
-        gap: 2px 2px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "Servicio1 Servicio4"
-        "Servicio2 Servicio5"
-        "Servicio3 Servicio6";
-    }
-
-
-.cuerpo { grid-area: cuerpo; }
-.Contacto { grid-area: Contacto; }
 
 .contenedorCont {
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: #05B4CD;
-}
+    }
 
 .Contacto1 {
     display: flex;
@@ -723,62 +656,56 @@ p {
 .Contacto2 {
     margin: 50px;
     }
-    .Contacto3 {
-        margin: 50px;
+.Contacto3 {
+    margin: 50px;
     }
 
 
-    
 
 
-    /* MEDIAS QUERIES 2 */
+/* MEDIAS QUERIES 2 */
 
 
-    @media (max-width: 830px)  {
-        .contenedor .mensajeCuerpo {
-            margin-bottom: 10rem;
-            font-size: 0.7rem;
+@media (max-width: 830px)  {
+    .menu {
+        font-size: 0.8rem;
         }
-        .menu {
-            font-size: 0.8rem;
-            }
-            nav{
-                width: 100%;
-                height: 110px;
-            }
-            nav ul{
-                list-style: none;
-                display: flex;
-                flex-direction: column;
-                align-items: start;
-                background: rgba(87,27,237,1) 100%);
-            }
-            .logo{
-                width:  161px;
-                height: 60px;
-                display: flex;
-                justify-items: center;
-                margin: auto;
-            }
-            nav ul{
-                list-style: none;
-                padding: 12px;
-                display: flex;
-                align-items: start;
-            }
-            nav ul a{
-                font-weight: 500;
-                color: white;
-                text-decoration: none;
-                padding: .1rem;
-                border-radius: 20px;
-            }
-            nav ul a:hover{
-                transition: all 0.8s;
-                font-weight: 500;
-                background-color: rgb(255, 255, 255);
-                color: rgb(0, 0, 0);
-                border-radius: 20px;
-            }
-        }
+    nav{
+        width: 100%;
+        height: 110px;
     }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background: rgba(87,27,237,1) 100%);
+    }
+    .logo{
+        width:  161px;
+        height: 60px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+    nav ul{
+        list-style: none;
+        padding: 12px;
+        display: flex;
+        align-items: start;
+    }
+    nav ul a{
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        padding: .1rem;
+        border-radius: 20px;
+    }
+    nav ul a:hover{
+        transition: all 0.8s;
+        font-weight: 500;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+}
