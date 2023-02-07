@@ -163,18 +163,18 @@ nav ul a:hover{
     grid-template-areas:
     "Servicio1 Servicio2 Servicio3"
     "Servicio4 Servicio5 Servicio6";
-  }
-  
+}
+
 .Servicio1 { grid-area: Servicio1; }
-  
+
 .Servicio2 { grid-area: Servicio2; }
-  
+
 .Servicio3 { grid-area: Servicio3; }
-  
+
 .Servicio4 { grid-area: Servicio4; }
-  
+
 .Servicio5 { grid-area: Servicio5; }
-  
+
 .Servicio6 { grid-area: Servicio6; }
 
 .contenedor {
@@ -301,7 +301,7 @@ nav ul a:hover{
     text-align: start;
     margin-top: 1rem;
 }
-}
+
 
 
 .Servicio6 h2 {
@@ -577,18 +577,18 @@ p {
     }
 
 
-        .Redes h2 {
-            font-family:'Poppins', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 400;
-            color: white;
-        }
+.Redes h2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
 
 
 .ContenMenuDown li h3 {
     color: white;
     }
-            
+
 
 .footer {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
@@ -661,44 +661,43 @@ p {
         "Servicio1 Servicio4"
         "Servicio1 Servicio5"
         "Servicio3 Servicio6";
-      }
-
-
-    .cuerpo { grid-area: cuerpo; }
-    .Contacto { grid-area: Contacto; }
-
-    .contenedorCont {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        background-color: #05B4CD;
     }
 
-    .Contacto1 {
+
+.cuerpo { grid-area: cuerpo; }
+.Contacto { grid-area: Contacto; }
+
+.contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #05B4CD;
+}
+
+.Contacto1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 50px;
-    }
-    .Contacto2 {
-        margin: 50px;
-    
+}
+
+.Contacto2 {
+    margin: 50px;
     }
     .Contacto3 {
         margin: 50px;
     }
 
 
-    
+
     /* MEDIAS QUERIES 2 */
 
-    
+
     @media (max-width: 830px)  {
         .contenedor .mensajeCuerpo {
             margin-bottom: 10rem;
             font-size: 0.7rem;
-
         }
         .menu {
             font-size: 0.8rem;
@@ -712,7 +711,7 @@ p {
                 display: flex;
                 flex-direction: column;
                 align-items: start;
-                background: rgba(87,27,237,1) 100%);
+                background: rgb(87,27,237,1);
             }
             .logo{
                 width:  161px;
@@ -742,3 +741,4 @@ p {
                 border-radius: 20px;
             }
         }
+    }
