@@ -292,9 +292,6 @@ nav ul a:hover{
 
 
 
-
-
-
 .footer {
     grid-area: footer;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
