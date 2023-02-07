@@ -202,6 +202,7 @@ nav ul a:hover{
     top: 5rem;
     bottom: 3rem;
     margin: auto;
+    font-size: 0.9rem;
     }
 
 
@@ -390,6 +391,7 @@ h4 {
 
     .contenedor .mensajeCuerpo {
         margin-bottom: 10rem;
+        font-size: 0.8rem;
     }
 
     .cuerpo {
@@ -430,28 +432,16 @@ h4 {
         margin: 50px;
     }
 
-/*     
-.contenedor .mensajeCuerpo{
-    position: relative;
-    top: 5rem;
-    bottom: 3rem;
-    margin: auto;
-}
 
-
-.mensajeCuerpo {
-    grid-area: cuerpo;
-    width: 70%;
-    height: auto;
-    padding-bottom: 2rem;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 20px;    
-} */
+    
+    /* MEDIAS QUERIES 2 */
 
     
     @media (max-width: 830px)  {
         .contenedor .mensajeCuerpo {
             margin-bottom: 10rem;
+            font-size: 0.7rem;
+
         }
         .menu {
             font-size: 0.8rem;
@@ -470,9 +460,9 @@ h4 {
             .logo{
                 width:  161px;
                 height: 60px;
-                margin: auto;
                 display: flex;
                 justify-items: center;
+                margin: auto;
             }
             nav ul{
                 list-style: none;
