@@ -50,10 +50,18 @@ nav ul a:hover{
     border-radius: 20px;
 }
 
+.logo{
+    width:  161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
 .lineaAzul {
     width: 100%;
     height: 45px;
-    background-color: black;
+    background-color: #121F3D;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -77,7 +85,7 @@ nav ul a:hover{
     width: 170px;
     height: 30px;
     color: white;
-    background-color:#02e675;
+    border: solid 2px #03A9F4;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -122,7 +130,7 @@ nav ul a:hover{
     width: 200px;
     height: 30px;
     color: white;
-    background-color:#02e675;
+    border: solid 2px #03A9F4;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -219,9 +227,9 @@ nav ul a:hover{
 
 
 .Contacto1 {
-    border: solid 2px blue;
-    width: 350px;
-    height: 250px;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -244,9 +252,9 @@ nav ul a:hover{
 
 
 .Contacto2 {
-    width: 350px;
-    height: 250px;
-    border: solid 2px blue;
+    width: 354px;
+    height: 254px;
+    border: solid 2px #03A9F4;
     justify-self: center;
     align-self: center;
     margin-top: 10px;
@@ -257,8 +265,11 @@ nav ul a:hover{
 }
 
 .Contacto3 {
+    width: 354px;
+    height: 254px;
     justify-self: center;
     align-self: center;
+    border: solid 2px #03A9F4;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -288,7 +299,7 @@ nav ul a:hover{
     font-size: 0.95rem;
     font-weight: 400;
     text-decoration:underline;
-    color: #05B4CD;
+    color: #03A9F4;
 }
 
 
@@ -335,6 +346,7 @@ h2 {
 
 h4 {
     font-weight: bold;
+    color: #ffffff;
 
 }
 
@@ -363,9 +375,13 @@ h4 {
     height: 100%;
     }
 
-    .Logo2 {
-        margin: 2rem;
-    }
+.Logo2 {
+    margin: 2rem;
+}
+
+.LogoCont {
+    width: 161px;
+}
 
 
 
