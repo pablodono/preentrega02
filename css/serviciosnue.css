@@ -112,6 +112,19 @@ nav ul a:hover{
     text-decoration: none;
 }
 
+.lineaAzul .Seccion h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 255, 243);
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    left: -1200px;
+}
+
+
+
 
 
 .contentMail {
@@ -628,29 +641,25 @@ p {
     font-weight: 400;
     text-align: center;
 }
-
 .footer {
     width: 100%;
     }
-
     .Logo2 {
         margin: 2rem;
     }
-    
     .LogoCont {
         width: 161px;
     }
-    
-    
+
 
 /* MEDIAS QUERIES */
 
 @media screen {
 
-    .lineaAzul {
-        min-width: 400px;
-        flex-wrap: nowrap;
-        padding-left: 50px;
+.lineaAzul {
+    min-width: 400px;
+    flex-wrap: nowrap;
+    padding-left: 50px;
     }
 }
 
@@ -668,13 +677,11 @@ p {
         margin: auto;
         justify-content: center;
     }
-
 .contenedorCont {
     display: flex;
     flex-direction: column;
     margin: auto;
     }
-
 .Contacto1 {
     display: flex;
     flex-wrap: wrap;
@@ -682,15 +689,16 @@ p {
     justify-content: center;
     margin: 50px;
 }
-
 .Contacto2 {
     margin: 50px;
     }
 .Contacto3 {
     margin: 50px;
     }
-
-
+    .lineaAzul .Seccion h4{
+        display: none;
+        }
+}
 
 
 /* MEDIAS QUERIES 2 */
