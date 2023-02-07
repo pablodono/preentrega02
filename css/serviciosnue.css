@@ -75,7 +75,6 @@ nav ul a:hover{
     height: 30px;
     color: white;
     background-color:#02e675;
-    border: solid 2px #02e675;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -119,9 +118,7 @@ nav ul a:hover{
     width: 200px;
     height: 30px;
     color: white;
-    background-color:rgb(65, 74, 83);
     background-color:#02e675;
-    border: solid 2px #02e675;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -347,6 +344,12 @@ nav ul a:hover{
     margin: 1rem;
 }
 
+.Servicio1:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+
+
 .Servicio2 {
     display: flex;
     flex-direction: column;
@@ -360,6 +363,11 @@ nav ul a:hover{
     justify-items: center;
     padding: 1rem;
     margin: 1rem;
+}
+
+.Servicio2:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
 }
 
 .Servicio3 {
@@ -377,6 +385,11 @@ nav ul a:hover{
     margin: 1rem;
 }
 
+.Servicio3:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+
 .Servicio4 {
     display: flex;
     flex-direction: column;
@@ -390,6 +403,11 @@ nav ul a:hover{
     justify-items: center;
     padding: 1rem;
     margin: 1rem;
+}
+
+.Servicio4:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
 }
 
 .Servicio5 {
@@ -407,6 +425,11 @@ nav ul a:hover{
     margin: 1rem;
 }
 
+.Servicio5:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+
 .Servicio6 {
     display: flex;
     flex-direction: column;
@@ -422,6 +445,10 @@ nav ul a:hover{
     margin: 1rem;
 }
 
+.Servicio6:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
 
 .Contacto1 {
     background-color: #121F3D;

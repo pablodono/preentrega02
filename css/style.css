@@ -78,7 +78,6 @@ nav ul a:hover{
     height: 30px;
     color: white;
     background-color:#02e675;
-    border: solid 2px #02e675;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -124,9 +123,7 @@ nav ul a:hover{
     width: 200px;
     height: 30px;
     color: white;
-    background-color:rgb(65, 74, 83);
     background-color:#02e675;
-    border: solid 2px #02e675;
     font-size: 12px;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -224,7 +221,7 @@ nav ul a:hover{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
