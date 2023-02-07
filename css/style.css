@@ -199,7 +199,7 @@ nav ul a:hover{
 .contenedor .mensajeCuerpo{
     grid-area: cuerpo;
     position: relative;
-    top: 5rem;
+    top: 6rem;
     bottom: 3rem;
     margin: auto;
     font-size: 0.9rem;
