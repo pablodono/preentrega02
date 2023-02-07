@@ -631,11 +631,49 @@ p {
         display: flex;
         flex-direction: column;
         margin: auto;
+        background-color: #cd4405;
+    }
+    
+
+@media (max-width: 1300px)  {
+
+    .contenedor {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        gap: 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "Servicio1 Servicio4"
+        "Servicio2 Servicio5"
+        "Servicio3 Servicio6";
     }
 
+    .contenedor {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "Servicio1 Servicio4"
+        "Servicio2 Servicio5"
+        "Servicio3 Servicio6";
+
+    }
 }
 
-@media (max-width: 1000px)  {
+@media (max-width: 1300px)  {
 
     .contenedor .mensajeCuerpo {
         margin-bottom: 10rem;
@@ -659,7 +697,7 @@ p {
         grid-auto-flow: row;
         grid-template-areas:
         "Servicio1 Servicio4"
-        "Servicio1 Servicio5"
+        "Servicio2 Servicio5"
         "Servicio3 Servicio6";
     }
 
@@ -690,6 +728,8 @@ p {
     }
 
 
+    
+
 
     /* MEDIAS QUERIES 2 */
 
@@ -711,7 +751,7 @@ p {
                 display: flex;
                 flex-direction: column;
                 align-items: start;
-                background: rgb(87,27,237,1);
+                background: rgba(87,27,237,1) 100%);
             }
             .logo{
                 width:  161px;

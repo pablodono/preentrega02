@@ -433,12 +433,11 @@ h4 {
     
     /* MEDIAS QUERIES 2 */
 
-    
+
     @media (max-width: 830px)  {
         .contenedor .mensajeCuerpo {
             margin-bottom: 10rem;
             font-size: 0.7rem;
-
         }
         .menu {
             font-size: 0.8rem;
