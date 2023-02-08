@@ -400,6 +400,11 @@ margin: 7px;
     align-items: center;
 }
 
+.icoredes:hover {
+    filter: brightness(50%);
+    transition: all .5s;
+}
+
 
 
 .contenedorCont {
