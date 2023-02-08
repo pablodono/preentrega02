@@ -120,9 +120,14 @@ nav ul a:hover{
     font-weight: 800;
     color: rgb(240, 255, 243);
     text-decoration: none;
-    position: relative;
-    top: 12px;
-    left: -1360px;
+}
+
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    margin-left: 25px;
 }
 
 .contentMail {
@@ -290,7 +295,7 @@ nav ul a:hover{
 
 .ContenMenuDown {
 
-    width: 350px;
+    width: 318px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -393,18 +398,7 @@ h4 {
 
 
 
-    /* MEDIAS QUERIES */
-
-
-/* @media screen {
-
-    .lineaAzul {
-        min-width: 400px;
-        flex-wrap: nowrap;
-        padding-left: 50px;
-    }
-}
- */
+/* MEDIAS QUERIES */
 
 
 
@@ -413,7 +407,6 @@ h4 {
         margin-bottom: 10rem;
         font-size: 0.8rem;
     }
-
     .cuerpo {
         background-image: url(../assets/tribu8.jpg);
         background-size: cover;
@@ -446,80 +439,71 @@ h4 {
     }
     .Contacto2 {
         margin: 50px;
-    
     }
     .Contacto3 {
         margin: 50px;
     }
-    .lineaAzul .Seccion h4{
-        display: none;
-        }
+
 }
 
 
-    
-    /* MEDIAS QUERIES 2 */
+
+/* MEDIAS QUERIES 2 */
 
 
-    @media (max-width: 830px)  {
-        .lineaAzul {
-            width: 100%;
-            height: 45px;
-            flex-wrap:nowrap;
-            justify-content: center;
-        }
-        .contenedor .mensajeCuerpo {
-            margin-bottom: 10rem;
-            font-size: 0.7rem;
-        }
-        .menu {
-            font-size: 0.8rem;
-            }
-            nav{
-                width: 100%;
-                height: 110px;
-            }
-            nav ul{
-                list-style: none;
-                display: flex;
-                flex-direction: column;
-                align-items: start;
-                background: rgba(87,27,237,1) 100%);
-            }
-            .logo{
-                width:  161px;
-                height: 60px;
-                display: flex;
-                justify-items: center;
-                margin: auto;
-            }
-            nav ul{
-                list-style: none;
-                padding: 12px;
-                display: flex;
-                align-items: start;
-            }
-            nav ul a{
-                font-weight: 500;
-                color: white;
-                text-decoration: none;
-                padding: .1rem;
-                border-radius: 20px;
-            }
-            nav ul a:hover{
-                transition: all 0.8s;
-                font-weight: 500;
-                background-color: rgb(255, 255, 255);
-                color: rgb(0, 0, 0);
-                border-radius: 20px;
-            }
-        }
-
-        /* @media (max-width: 533px)  {
-            .lineaAzul {
-                width: 100%;
-                height: 45px;
-                flex-wrap:nowrap;
-                justify-content: center;
-            }
-        } */
+@media (max-width: 830px)  {
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+    }
+    .contenedor .mensajeCuerpo {
+        margin-bottom: 10rem;
+        font-size: 0.7rem;
+    }
+    .menu {
+        font-size: 0.8rem;
+    }
+    nav{
+        width: 100%;
+        height: 110px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background: rgba(87,27,237,1) 100%);
+    }
+    .logo{
+        width:  161px;
+        height: 60px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+    nav ul{
+        list-style: none;
+        padding: 12px;
+        display: flex;
+        align-items: start;
+    }
+    nav ul a{
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        padding: .1rem;
+        border-radius: 20px;
+    }
+    nav ul a:hover{
+        transition: all 0.8s;
+        font-weight: 500;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    .lineaAzul .Seccion h4{
+        display: none;
+    }
+}

@@ -63,18 +63,21 @@ nav ul a:hover{
     height: 45px;
     background-color: #121F3D;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 
 
+
 .contentTel {
-    width: 258px;
-    height: 70px;
+    width: 170;
+    height: 30px;
     align-self: auto;
     padding-top: 7.5px;
+    margin-left: 25px;
+    margin-right: 10px;
 }
 
 
@@ -99,6 +102,7 @@ nav ul a:hover{
     transition: all .5s;
 }
 
+
 .lineaAzul .contentTel a{
     font-size: 12px;
     border-radius: 15px;
@@ -118,21 +122,22 @@ nav ul a:hover{
     font-weight: 800;
     color: rgb(240, 255, 243);
     text-decoration: none;
-    position: relative;
-    top: 12px;
-    left: -1200px;
 }
 
-
-
-
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    margin-left: 25px;
+}
 
 .contentMail {
-    width: 258px;
-    height: 70px;
+    width: 200px;
+    height: 30px;
     align-self: auto;
     padding-top: 7.5px;
-
+    margin-left: 10px;
 }
 
 .Mail {
@@ -654,29 +659,20 @@ p {
 
 /* MEDIAS QUERIES */
 
-@media screen {
 
-.lineaAzul {
-    min-width: 400px;
-    flex-wrap: nowrap;
-    padding-left: 50px;
-    }
+@media (max-width: 1000px)  {
+
+
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    margin: auto;
+    justify-content: center;
 }
-
-
-@media (max-width: 1300px)  {
-
-
-    .contenedor {
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-direction: column;
-        align-content: space-around;
-        margin: auto;
-        justify-content: center;
-    }
 .contenedorCont {
     display: flex;
     flex-direction: column;
@@ -695,9 +691,7 @@ p {
 .Contacto3 {
     margin: 50px;
     }
-    .lineaAzul .Seccion h4{
-        display: none;
-        }
+
 }
 
 
@@ -705,6 +699,12 @@ p {
 
 
 @media (max-width: 830px)  {
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+    }
     .menu {
         font-size: 0.8rem;
         }
@@ -746,4 +746,7 @@ p {
         color: rgb(0, 0, 0);
         border-radius: 20px;
     }
+    .lineaAzul .Seccion h4{
+        display: none;
+        }
 }
