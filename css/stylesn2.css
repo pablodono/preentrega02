@@ -537,23 +537,60 @@ margin: 7px;
 /* MEDIAS QUERIES */
 
 
-@media (max-width: 1000px)  {
-.contenedor {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    align-content: space-around;
-    margin: auto;
-    justify-content: center;
-}
-.contenedor {
-    background-image: url(../assets/fondos/fondo-arriba-martillo-02.jpg);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-}
+@media (max-width: 1650px)  {
+    .contenedorGralBogas { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-columns: 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: column;
+        grid-template-areas:
+        "Abogada1 Abogada1 Abogada1 Abogada1"
+        "Abogado2"
+        "Abogado3";
+    }
+        .Abogada1 { grid-area: Abogada1; }
+    
+        .Abogado2 { grid-area: Abogado2; }
+    
+        .Abogado3 { grid-area: Abogado3; }
+
+    .contenedorGralBogas { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Abogada1 {
+        width: 90%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .Abogado2 {
+        width: 90%;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .Abogado3 {
+        width: 90%;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
 .contenedorCont {
     display: flex;
     flex-direction: column;
@@ -608,6 +645,7 @@ margin: 7px;
         flex-wrap:nowrap;
         justify-content: center;
     }
+
     .menu {
         font-size: 0.8rem;
         }
