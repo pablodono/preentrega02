@@ -659,6 +659,12 @@ p {
         width: 161px;
     }
 
+    .footer a{
+        text-decoration: none;
+        color: #03A9F4;
+        font-weight: bold;
+    }
+    
 
 /* MEDIAS QUERIES */
 

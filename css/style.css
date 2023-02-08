@@ -391,14 +391,16 @@ h4 {
 .footer {
     width: 100%;
     height: 100%;
-    }
+}
+
+.footer a{
+    text-decoration: none;
+    color: #03A9F4;
+    font-weight: bold;
+}
 
 .Logo2 {
     margin: 2rem;
-}
-
-.LogoCont {
-    width: 161px;
 }
 
 
