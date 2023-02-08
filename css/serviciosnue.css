@@ -208,11 +208,10 @@ nav ul a:hover{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #121F3D;
-    background-image: url(../assets/tribu10.jpg);
+    background-image: url(../assets/fondos/vista-superior-elementos-orientacion-profesional-jueces.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
@@ -538,6 +537,7 @@ nav ul a:hover{
     background-color: #121F3D;
     align-items: center;
     justify-items: center;
+    flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -661,8 +661,6 @@ p {
 
 
 @media (max-width: 1000px)  {
-
-
 .contenedor {
     display: flex;
     justify-content: flex-start;
@@ -673,11 +671,17 @@ p {
     margin: auto;
     justify-content: center;
 }
+.contenedor {
+    background-image: url(../assets/fondos/vista-superior-elementos-orientacion-profesional-jueces.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
 .contenedorCont {
     display: flex;
     flex-direction: column;
     margin: auto;
-    }
+}
 .Contacto1 {
     display: flex;
     flex-wrap: wrap;
@@ -691,7 +695,6 @@ p {
 .Contacto3 {
     margin: 50px;
     }
-
 }
 
 
