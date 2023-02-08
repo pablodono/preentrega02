@@ -484,7 +484,6 @@ h4 {
         margin: auto;
     }
     nav ul{
-        list-style: none;
         padding: 12px;
         display: flex;
         align-items: start;

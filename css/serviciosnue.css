@@ -69,6 +69,35 @@ nav ul a:hover{
 }
 
 
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 255, 243);
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    margin-left: 25px;
+}
+
 
 
 .contentTel {
@@ -100,36 +129,6 @@ nav ul a:hover{
 .tel:hover {
     background-color: rgb(98, 37, 197);
     transition: all .5s;
-}
-
-
-.lineaAzul .contentTel a{
-    font-size: 12px;
-    border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: aliceblue;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion h4{
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: rgb(240, 255, 243);
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion {
-    font-size: 1rem;
-    position: absolute;
-    top: 82px;
-    left: 0px;
-    margin-left: 25px;
 }
 
 .contentMail {
@@ -208,7 +207,7 @@ nav ul a:hover{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #121F3D;
-    background-image: url(../assets/fondos/vista-superior-elementos-orientacion-profesional-jueces.jpg);
+    background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -672,7 +671,7 @@ p {
     justify-content: center;
 }
 .contenedor {
-    background-image: url(../assets/fondos/vista-superior-elementos-orientacion-profesional-jueces.jpg);
+    background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -730,7 +729,6 @@ p {
         margin: auto;
     }
     nav ul{
-        list-style: none;
         padding: 12px;
         display: flex;
         align-items: start;
