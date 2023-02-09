@@ -140,7 +140,7 @@ nav ul a:hover{
 }
 
 .Mail {
-    width: 200px;
+    width: 220px;
     height: 30px;
     color: white;
     border: solid 2px #03A9F4;
@@ -539,9 +539,9 @@ margin: 7px;
     }
 
     .footer a{
-        text-decoration: none;
         color: #03A9F4;
-        font-weight: bold;
+        text-decoration: none;
+        font-weight: 800;
     }
 
 
@@ -717,7 +717,7 @@ margin: 7px;
         margin-bottom: 30px;
     }
     .Abogada1 img {
-        width: 360px;
+        width: 350px;
     }
     .Abogado2 {
         width: 90%;

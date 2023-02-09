@@ -140,7 +140,7 @@ nav ul a:hover{
 }
 
 .Mail {
-    width: 200px;
+    width: 220px;
     height: 30px;
     color: white;
     border: solid 2px #03A9F4;
@@ -660,9 +660,9 @@ p {
     }
 
     .footer a{
-        text-decoration: none;
         color: #03A9F4;
-        font-weight: bold;
+        text-decoration: none;
+        font-weight: 800;
     }
     
 
