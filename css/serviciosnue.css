@@ -224,6 +224,7 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .Servicio1 p {
@@ -233,6 +234,8 @@ nav ul a:hover{
     font-family: 'Montserrat', sans-serif;
     text-align: start;
     margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .Servicio2 h2 {
@@ -245,6 +248,8 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .Servicio2 p {
@@ -254,7 +259,10 @@ nav ul a:hover{
     font-family: 'Montserrat', sans-serif;
     text-align: start;
     margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
+
 
 
 .Servicio3 h2 {
@@ -269,6 +277,8 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .Servicio3 p {
@@ -278,6 +288,8 @@ nav ul a:hover{
     font-family: 'Montserrat', sans-serif;
     text-align: start;
     margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .Servicio4 h2 {
@@ -290,6 +302,8 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .Servicio4 p {
@@ -298,7 +312,9 @@ nav ul a:hover{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 2rem;
+    margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 
@@ -312,6 +328,8 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .Servicio5 p {
@@ -320,7 +338,9 @@ nav ul a:hover{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 
@@ -336,7 +356,7 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-bottom: 20px;
 }
 
 .Servicio6 p {
@@ -345,7 +365,9 @@ nav ul a:hover{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 1.3rem;
+    margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 

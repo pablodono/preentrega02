@@ -217,6 +217,7 @@ nav ul a:hover{
     position: relative;
     top: 6rem;
     bottom: 3rem;
+    padding-top: 30px;
     margin: auto;
     font-size: 0.9rem;
     }
@@ -236,7 +237,13 @@ nav ul a:hover{
     transition: all 0.3s;
 }
 
+.mensajeCuerpo h1 {
+    margin-bottom: 30px;
+}
 
+.mensajeCuerpo h2 {
+    margin-bottom: 30px;
+}
 
 .Contacto1 {
     border: solid 2px #03A9F4;
@@ -354,9 +361,12 @@ nav ul a:hover{
     text-align: center;
 }
 
+
+
 h1 {
 color: #000;
 }
+
 
 h2 {
     color: #000;
@@ -367,6 +377,7 @@ h4 {
     color: #ffffff;
 
 }
+
 
 .ContenMenuDown li h3 {
     color: white;
