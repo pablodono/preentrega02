@@ -209,8 +209,8 @@ nav ul a:hover{
 }
 
 .descBoga1 p {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 
@@ -722,6 +722,12 @@ margin: 7px;
         padding: 20px;
         margin-bottom: 30px;
     }
+
+    .descBoga1 p {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
     .Abogada1 img {
         width: 350px;
     }
