@@ -282,9 +282,6 @@ nav ul a:hover{
     border: solid 2px #03A9F4;
     justify-self: center;
     align-self: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 30px;
 
 
 }
@@ -419,7 +416,12 @@ h4 {
 
 /* MEDIAS QUERIES */
 
-
+@media (max-width: 1300px)  {
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 20px;
+        background-color: #860f4b;
+    }
+}
 
 @media (max-width: 1000px)  {
     .contenedor .mensajeCuerpo {
@@ -449,6 +451,7 @@ h4 {
     .cuerpo { grid-area: cuerpo; }
     .Contacto { grid-area: Contacto; }
     .footer { grid-area: footer; }
+
     .Contacto1 {
     display: flex;
     flex-wrap: wrap;
@@ -463,6 +466,9 @@ h4 {
         margin: 50px;
     }
 
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 15px auto;
+        }
 }
 
 
@@ -525,4 +531,9 @@ h4 {
     .lineaAzul .Seccion h4{
         display: none;
     }
+
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 15px auto;
+        }
+    
 }
