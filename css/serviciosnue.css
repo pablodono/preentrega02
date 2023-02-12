@@ -224,6 +224,7 @@ nav ul a:hover{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -690,6 +691,51 @@ p {
 
 /* MEDIAS QUERIES */
 
+
+@media (max-width: 1366px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        gap: 2px;
+        grid-auto-flow:row;
+        grid-template-areas:
+        "Servicio1 Servicio4"
+        "Servicio2 Servicio5"
+        "Servicio3 Servicio6";
+    }
+    
+    .Servicio1 { grid-area: Servicio1; }
+    
+    .Servicio2 { grid-area: Servicio2; }
+    
+    .Servicio3 { grid-area: Servicio3; }
+    
+    .Servicio4 { grid-area: Servicio4; }
+    
+    .Servicio5 { grid-area: Servicio5; }
+    
+    .Servicio6 { grid-area: Servicio6; }
+    
+    .contenedor {
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #121F3D;
+        background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+
+    .Servicio1, .Servicio2, .Servicio3, .Servicio4, .Servicio5, .Servicio6 {
+    height: 95% ;
+    }
+
+}
 
 @media (max-width: 1000px)  {
 .contenedor {
