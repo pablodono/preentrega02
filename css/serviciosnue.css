@@ -761,7 +761,7 @@ p {
         justify-content: space-around;
         align-items: center;
         flex-wrap: nowrap;
-        padding-top: 1rem;
+        padding-top: 2rem;
         padding-bottom: 1rem;
     }
     
@@ -818,7 +818,7 @@ p {
 }
 
 .Contacto1, .Contacto2, .Contacto3 {
-    margin: 15px auto;
+    margin: 25px auto;
     }
 
 /* MEDIAS QUERIES 2 */
@@ -880,5 +880,5 @@ p {
         }
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 15px auto;
-    }
+            }
 }
