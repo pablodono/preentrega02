@@ -596,6 +596,28 @@ font-family: 'Montserrat', sans-serif;
 
 @media (max-width: 1050px)  {
 
+    .contenedorGralBogas { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.7fr 0.7fr;
+        grid-auto-columns: 0.7fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Abogada1 Abogada1 Abogada1 Abogada1"
+          "Abogado2 Abogado2 Abogado3 Abogado3";
+      }
+      
+      .Abogada1 { grid-area: Abogada1; }
+      
+      .Abogado2 { grid-area: Abogado2; }
+      
+      .Abogado3 { grid-area: Abogado3; }
+
+.contenedorGralBogas {
+    max-height: 1400px;
+}
+
 .Abogada1  {
     flex-direction: column;
     height: 100%;
@@ -610,11 +632,22 @@ font-family: 'Montserrat', sans-serif;
     width:100%;
     height:100%;
 }
+.FotoAbo1 {
+    width:90%;
+    height:90%;
+}
+.FotoAbo1 img {
+    object-fit: cover;
+}
+.descBoga1 p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 .Abogado2  {
-    height: 62%;
+    height: 24rem;
 }
 .Abogado3  {
-    height: 62%;
+    height: 24rem;
 }
 
 .contenedorCont {
@@ -665,17 +698,7 @@ font-family: 'Montserrat', sans-serif;
 .Contacto1, .Contacto2, .Contacto3 {
     margin: 15px auto;
 }
-.FotoAbo1 {
-    width:90%;
-    height:90%;
-}
-.FotoAbo1 img {
-    object-fit: cover;
-}
-.descBoga1 p {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
+
 }
 
 
@@ -708,6 +731,9 @@ font-family: 'Montserrat', sans-serif;
 
     }
 
+    .contenedorGralBogas {
+        max-height: 1700px;
+    }
 
 
     .lineaAzul {
