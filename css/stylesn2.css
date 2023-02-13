@@ -208,15 +208,52 @@ nav ul a:hover{
     justify-items: center;
 }
 
-.descBoga1 p {
-    padding-top: 4px;
-    padding-bottom: 4px;
+.descBoga1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: start;
+    flex-direction: column;
+    align-content: stretch;
+    padding-top: 30px;
+    padding-left: 30px;
+
+
 }
+
+.descBoga1 p {
+
+    padding-bottom: 4px;
+
+}
+
+.Abogada1 .FotoAbo1 {
+    text-align: start;
+    margin-top: 7px;
+}
+
+.FotoAbo1 {
+    width: max-content ;
+    height: 200px;
+}
+
+
+
+
+.Abogada1 .ContNombre {
+    width: 23rem;
+}
+
+.Abogada1 .Categoria h3{
+    width: 23rem;
+    margin: 0;
+}
+
 
 
 .Abogada1 {
     width: 90%;
-    height: 350px;
+    height: 400px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     display: flex;
@@ -228,7 +265,6 @@ nav ul a:hover{
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin: 7px;
     color: #000000;
 }
 
@@ -237,7 +273,6 @@ color: black;
 font-weight: 400;
 font-size: 0.95rem;
 font-family: 'Montserrat', sans-serif;
-margin: 7px;
 }
 
 
@@ -250,15 +285,16 @@ margin: 7px;
     color: #000000;
 }
 
-.Abogada1 .FotoAbo1 {
-    text-align: start;
-    margin: 7px;
-}
+
+
 
 .Abogada1:hover {
     background-color: rgb(255, 255, 255);
     transition: all .5s;
 }
+
+
+
 
 .contenedorGralBogas img {
     text-align: start;
@@ -554,7 +590,7 @@ margin: 7px;
 /* MEDIAS QUERIES */
 
 
-@media (max-width: 1650px)  {
+@media (max-width: 1227px)  {
     .contenedorGralBogas { 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -578,18 +614,43 @@ margin: 7px;
         flex-direction: column;
     }
 
+    
+
     .Abogada1 {
-        width: 90%;
+        width: 80%;
         height: 100%;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        margin-bottom: 30px;
     }
+
+
+    .FotoAbo1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .descBoga1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: start;
+        flex-direction: column;
+        align-content: stretch;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    
+    .descBoga1 p {
+    
+        padding-bottom: 4px;    
+    }
+
+
+
+
+
     .Abogado2 {
-        width: 90%;
+        width: 80%;
         height: 350px;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 15px;
@@ -599,7 +660,7 @@ margin: 7px;
         margin-bottom: 30px;
     }
     .Abogado3 {
-        width: 90%;
+        width: 80%;
         height: 350px;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 15px;
@@ -632,6 +693,22 @@ margin: 7px;
 /* MEDIAS QUERIES 2 */
 
 
+@media (max-width: 1030px)  {
+
+.Abogada1  {
+    flex-direction: column;
+}
+.descBoga1 {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+}
+
+/* MEDIAS QUERIES 3 */
+
+
+
 @media (max-width: 830px)  {
     .contenedorGralBogas { 
         display: grid;
@@ -656,6 +733,26 @@ margin: 7px;
         flex-direction: column;
 
     }
+
+    .Abogada1 .FotoAbo1 img{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+      }
+
+    .Abogado2 .FotoAbo2 img{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+
+    .Abogado2 .FotoAbo2 img{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+
+
     .lineaAzul {
         width: 100%;
         height: 45px;

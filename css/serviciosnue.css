@@ -878,4 +878,7 @@ p {
     .lineaAzul .Seccion h4{
         display: none;
         }
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 15px auto;
+    }
 }
